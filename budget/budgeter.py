@@ -5,7 +5,10 @@ def salary():
     print(f"Gross income is ${salary}")
     print(" ")
 
-def fed_tax():
+def fed_tax(salary):
+    esbi = input("Are you an Employee, Self Employed, Business owner, or Invester? "
+        if esbi == "Employee" or "employee"
+            fed_income_tax = .37 * salary
     fed_income_tax = .20 * salary
     fed_income_tax = round(fed_income_tax, 2)
 
