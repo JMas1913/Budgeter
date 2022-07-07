@@ -4,7 +4,7 @@ This is a simple python budgeter.
 
 It asks for users salary
 
-calculates gross income and net income after Fed Income Tax (15%).
+calculates gross income and net income after Fed Income Tax (20%).
 
 After that it will... 
 
