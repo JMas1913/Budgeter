@@ -46,8 +46,15 @@ def wants():
     print(f"Amount spent on wants each month is ${wants}")
     print(" ")
 
-def budget(stat_tax):
+def budget():
     monthly_budget = net_income / 12
     monthly_budget = round(monthly_budget, 2)
+    salary()
+    fed_tax()
+    state_tax(salary)
+    savings()
+    investing()
+    expenses()
+    wants()
 
 budget()
